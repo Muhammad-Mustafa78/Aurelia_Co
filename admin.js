@@ -2,12 +2,12 @@
 
 // ===== INITIAL PRODUCT DATABASE =====
 let products = JSON.parse(localStorage.getItem('adminProducts')) || [
-  { 
+ { 
     id: 1, 
     name: "Minimalist Canvas Weekend Tote", 
     reviews: 1234, 
-    image: "images/mthzz.jpeg", 
-    price: 37.99, 
+    image: "https://images.unsplash.com/photo-1544816155-12df9643f363?w=600", 
+    price: 34.99, 
     category: "tote", 
     description: "Spacious canvas tote perfect for weekends.", 
     isBestseller: true, 
@@ -16,7 +16,7 @@ let products = JSON.parse(localStorage.getItem('adminProducts')) || [
     inStock: true 
   },
   { 
-    id: 1, 
+    id: 2, 
     name: "Premium Leather Executive Tote", 
     reviews: 856, 
     image: "https://images.unsplash.com/photo-1584917865441-4c2b2b8f7b3c?w=600", 
