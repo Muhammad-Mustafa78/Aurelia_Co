@@ -6,7 +6,7 @@ let products = JSON.parse(localStorage.getItem('adminProducts')) || [
     id: 1, 
     name: "Minimalist Canvas Weekend Tote", 
     reviews: 1234, 
-    image: "images/shop_jpg", 
+    image: "images/mthzz.jpeg", 
     price: 37.99, 
     category: "tote", 
     description: "Spacious canvas tote perfect for weekends.", 
