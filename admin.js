@@ -16,7 +16,7 @@ let products = JSON.parse(localStorage.getItem('adminProducts')) || [
     inStock: true 
   },
   { 
-    id: 2, 
+    id: 1, 
     name: "Premium Leather Executive Tote", 
     reviews: 856, 
     image: "https://images.unsplash.com/photo-1584917865441-4c2b2b8f7b3c?w=600", 
