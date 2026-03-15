@@ -3,7 +3,7 @@
 // ===== INITIAL PRODUCT DATABASE =====
 let products = JSON.parse(localStorage.getItem('adminProducts')) || [
   { 
-    id: 2, 
+    id: 1, 
     name: "Minimalist Canvas Weekend Tote", 
     reviews: 1234, 
     image: "https://images.unsplash.com/photo-1544816155-12df9643f363?w=600", 
