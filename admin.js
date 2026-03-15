@@ -42,7 +42,7 @@ let products = JSON.parse(localStorage.getItem('adminProducts')) || [
     inStock: true 
   },
   { 
-    id: 4, 
+    id: 3, 
     name: "Structured Italian Leather Handbag", 
     reviews: 567, 
     image: "https://images.unsplash.com/photo-1584917865441-4c2b2b8f7b3c?w=600", 
